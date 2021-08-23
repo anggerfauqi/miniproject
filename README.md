@@ -22,9 +22,11 @@ Test Programming Create Restful API with Java Spring Boot
 - Show all item with **GET** METHOD : http://localhost:8080/items/
 
 - Show selected item by id with **GET** METHOD : http://localhost:8080/items/?orders_id=
+
 *NOTE : add your item id after link*
 
 - Update selected item by id with **PUT** METHOD : http://localhost:8080/items/?orders_id=
+
 *NOTE : add your item id after link*
 
 *JSON PUT example :*
@@ -38,7 +40,9 @@ Test Programming Create Restful API with Java Spring Boot
 ```
 
 - Delete selected item by id with **DELETE** METHOD : http://localhost:8080/items/?orders_id=
+
 *NOTE : add your item id after link*
+
 
 **ORDER (GET, POST, PUT)**
 - Create new order with **POST** METHOD : http://localhost:8080/orders/
@@ -57,9 +61,11 @@ Test Programming Create Restful API with Java Spring Boot
 - Show all order with **GET** METHOD : http://localhost:8080/orders/
 
 - Show selected order by id with **GET** METHOD : http://localhost:8080/orders/?orders_id=
+
 *NOTE : add your order id after link*
 
 - Update selected order by id with **PUT** METHOD : http://localhost:8080/orders/?orders_id=
+
 *NOTE : add your order id after link*
 
 *JSON PUT example :*
@@ -74,7 +80,9 @@ Test Programming Create Restful API with Java Spring Boot
 ```
 
 - Delete selected item by id with **DELETE** METHOD : http://localhost:8080/orders/?orders_id=
+
 *NOTE : add your order id after link*
+
 
 **DETAIL ORDER (GET, POST, PUT)**
 - Create new detail order with **POST** METHOD : http://localhost:8080/detail_orders/
