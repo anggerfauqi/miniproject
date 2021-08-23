@@ -58,7 +58,7 @@ Test Programming Create Restful API with Java Spring Boot
 
 - Delete selected item by id with **DELETE** METHOD : http://localhost:8080/orders/?orders_id=    *add your order id after link
 
-**ORDER (GET, POST, PUT)**
+**DETAIL ORDER (GET, POST, PUT)**
 - Create new detail order with **POST** METHOD : http://localhost:8080/detail_orders/
 *json post example :*
   {
