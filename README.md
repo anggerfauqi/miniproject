@@ -51,7 +51,7 @@ Test Programming Create Restful API with Java Spring Boot
 ```ruby
   {
     "code": "Ord1",
-    "name": "Dimas Anggara Putra",
+    "name": "Angger Fauqi Darmawan",
     "address": "Kendangsari gang 10 no 09 Surabaya",
     "total_price": 220000,
     "note": ""
