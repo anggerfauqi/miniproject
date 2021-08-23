@@ -8,6 +8,7 @@ Test Programming Create Restful API with Java Spring Boot
 # Postman API Platform 
 **ITEM (GET, POST, PUT)**
 - Create new item with **POST** METHOD : http://localhost:8080/items/
+
 *JSON POST example :*
 ```ruby
   {
@@ -20,9 +21,12 @@ Test Programming Create Restful API with Java Spring Boot
   
 - Show all item with **GET** METHOD : http://localhost:8080/items/
 
-- Show selected item by id with **GET** METHOD : http://localhost:8080/items/?orders_id=    *add your item id after link
+- Show selected item by id with **GET** METHOD : http://localhost:8080/items/?orders_id=
+*NOTE : add your item id after link*
 
-- Update selected item by id with **PUT** METHOD : http://localhost:8080/items/?orders_id=    *add your item id after link
+- Update selected item by id with **PUT** METHOD : http://localhost:8080/items/?orders_id=
+*NOTE : add your item id after link*
+
 *JSON PUT example :*
 ```ruby
   {
@@ -33,10 +37,12 @@ Test Programming Create Restful API with Java Spring Boot
   }
 ```
 
-- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/items/?orders_id=    *add your item id after link
+- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/items/?orders_id=
+*NOTE : add your item id after link*
 
 **ORDER (GET, POST, PUT)**
 - Create new order with **POST** METHOD : http://localhost:8080/orders/
+
 *JSON POST example :*
 ```ruby
   {
@@ -50,9 +56,12 @@ Test Programming Create Restful API with Java Spring Boot
 
 - Show all order with **GET** METHOD : http://localhost:8080/orders/
 
-- Show selected order by id with **GET** METHOD : http://localhost:8080/orders/?orders_id=    *add your order id after link
+- Show selected order by id with **GET** METHOD : http://localhost:8080/orders/?orders_id=
+*NOTE : add your order id after link*
 
-- Update selected order by id with **PUT** METHOD : http://localhost:8080/orders/?orders_id=    *add your order id after link
+- Update selected order by id with **PUT** METHOD : http://localhost:8080/orders/?orders_id=
+*NOTE : add your order id after link*
+
 *JSON PUT example :*
 ```ruby
   {
@@ -64,10 +73,12 @@ Test Programming Create Restful API with Java Spring Boot
   }
 ```
 
-- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/orders/?orders_id=    *add your order id after link
+- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/orders/?orders_id=
+*NOTE : add your order id after link*
 
 **DETAIL ORDER (GET, POST, PUT)**
 - Create new detail order with **POST** METHOD : http://localhost:8080/detail_orders/
+
 *JSON POST example :*
 ```ruby
   {
@@ -80,11 +91,15 @@ Test Programming Create Restful API with Java Spring Boot
 
 - Show all detail order with **GET** METHOD : http://localhost:8080/detail_orders/
 
-- Show selected detail order by id with **GET** METHOD : http://localhost:8080/detail_orders/?detail_id=    *add your detail order id after link
+- Show selected detail order by id with **GET** METHOD : http://localhost:8080/detail_orders/?detail_id=
+*NOTE : add your detail order id after link*
 
-- Show selected detail order by order id with **GET** METHOD : http://localhost:8080/detail_orders/?order_id=    *add your detail order id after link
+- Show selected detail order by order id with **GET** METHOD : http://localhost:8080/detail_orders/?order_id=
+*NOTE : add your order id after link*
 
-- Update selected detail order by id with **PUT** METHOD : http://localhost:8080/detail_orders/?detail_id=    *add your detail order id after link
+- Update selected detail order by id with **PUT** METHOD : http://localhost:8080/detail_orders/?detail_id=
+*NOTE : add your detail order id after link*
+
 *JSON PUT example :*
 ```ruby
   {
@@ -95,4 +110,5 @@ Test Programming Create Restful API with Java Spring Boot
   }
 ```
 
-- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/detail_orders/?detail_id= *add your detail order id after link
+- Delete selected item by id with **DELETE** METHOD : http://localhost:8080/detail_orders/?detail_id=
+*NOTE : add your detail order id after link*
